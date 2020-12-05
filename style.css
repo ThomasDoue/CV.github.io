@@ -215,17 +215,19 @@ html, body {
 .instagram{
     fill: #ffffff;
     position: relative;
-    margin-top: 15px;
-    margin-right: 70px;
 }
 .instagram:hover{
     fill: red;
     transform: scale(1.5);
     transition:all 0.2s ease-out;
 }
-.taille{
-  height:50px;
-  width:50px;
-}
+.linkedin{
+  fill: #ffffff;
+  position: relative;
 
-  
+}
+.linkedin:hover{
+  fill: red;
+  transform: scale(1.5);
+  transition:all 0.2s ease-out;
+}
