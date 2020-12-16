@@ -23,7 +23,7 @@
    display: flex;
    justify-content: space-between;
    padding: 250px;
-   background:#0000000;
+   background:#000000;
 }
 .droite{
 }
@@ -98,13 +98,19 @@
     background: #000000;
   }
   
+  .dessous {
+
+    width: 300px;
+    display: block;
+
+  }
+  
+  
   a {
     position: relative;
     padding: 15px 45px;
-    display: block;
     text-decoration: none;
     text-transform: uppercase;
-    width: 300px;
     overflow: hidden;
     border-radius: 40px;
   }
@@ -173,9 +179,6 @@
 .dessus{
 
 }
-.dessous{
-    text-align: center;
-}
 html, body {
     background: rgb(20,20,20);
     text-align: center;
@@ -230,4 +233,45 @@ html, body {
   fill: red;
   transform: scale(1.5);
   transition:all 0.2s ease-out;
+}
+
+.reseau {
+  display: inline;
+  justify-content: space-around;
+  margin-right :25px ;
+}
+
+.posinsta {
+  margin-bottom: 200px;
+}
+
+@media screen and (max-width: 320px) {
+}
+@media screen and (max-width: 375px) {
+}
+@media screen and (max-width: 425px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 1024px) {
+  .container{
+    margin-top: 50px;
+    margin-left:-150px;
+    height: -200px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .whitebanner{
+    font-size: 8px;
+    padding: 150px;
+    margin-left:-75px;
+    margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+  .whitebanner {
+    width: 125%;
+  }
+}
+@media screen and (max-width: 2560px) {
 }
