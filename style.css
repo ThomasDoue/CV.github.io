@@ -7,14 +7,14 @@
 }
 .whitebanner{
     background-color: #ffffff;
-    width: 70%
+    width: 65%
 }
 .yellowcolor{
-    color: rgb(255, 187, 0);
+    color: rgb(255, 0, 0);
 }
 .underline{
     text-decoration:underline ;
-    color: #0044ff;
+    color:rgb(255, 0, 0);
 }
 .whitecolor{
     color: #fcfcfc
@@ -246,6 +246,13 @@ html, body {
 }
 
 @media screen and (max-width: 320px) {
+  .whitebanner{
+    size: 50%;
+    padding-top: auto;
+  }
+  .bckgborderhaut{
+    border-top: 100000px #ffffff solid;
+  }
 }
 @media screen and (max-width: 375px) {
 }
